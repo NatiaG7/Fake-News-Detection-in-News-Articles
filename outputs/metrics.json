@@ -1,0 +1,6 @@
+{
+  "accuracy": 0.9766,
+  "test_size": 8980,
+  "train_size": 35918,
+  "note": "Metrics from original training notebook on ISOT-style Fake/True CSV split (80/20, random_state=42)."
+}

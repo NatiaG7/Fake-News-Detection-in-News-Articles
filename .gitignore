@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (keep sample + README only)
+data/raw/
+data/*.csv
+data/*.zip
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Keep committed models for demo (small artifacts)
+# models/*.pkl
