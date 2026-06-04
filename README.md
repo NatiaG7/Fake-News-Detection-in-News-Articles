@@ -1,6 +1,10 @@
 # Fake News Detector
 
+[![GitHub](https://img.shields.io/badge/GitHub-NatiaG7-blue)](https://github.com/NatiaG7/Fake-News-Detection-in-News-Articles)
+
 NLP pipeline and Streamlit app that classifies news article text as **real** or **fake**.
+
+> Pre-trained models are included in `models/` — you can run the app without downloading the full dataset.
 
 ## Business problem
 
@@ -59,7 +63,8 @@ fake-news-detector/
 ## Quick start
 
 ```bash
-cd fake-news-detector
+git clone https://github.com/NatiaG7/Fake-News-Detection-in-News-Articles.git
+cd Fake-News-Detection-in-News-Articles
 python -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
